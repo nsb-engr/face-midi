@@ -1,4 +1,4 @@
-# MIDI Control with Face.
+# MIDI Control with Face
 MIDI control with your face using [Mediapipe](https://mediapipe.dev/).<br/>
 
 For now,<br/>
@@ -7,6 +7,10 @@ For now,<br/>
 
 # Demo
 Wah-wah Pedal of VST plugin is controled by my mouth open-close.<br/>
+
+
+https://user-images.githubusercontent.com/86157729/123127083-e9e80280-d484-11eb-8cc9-0c6f72b3293e.mp4
+
 
 
 
