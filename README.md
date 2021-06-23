@@ -50,7 +50,7 @@ https://www.tobias-erichsen.de/software/loopmidi.html
 
 ## Set output midi port.
 ```bash
-$ cd
+$ cd face-midi
 $ python3 set_midi_port.py
 Availavle ports are ...
 -----------------------
