@@ -5,16 +5,13 @@ For now,<br/>
 * Available MIDI parameter is only Control Change.
 * Open and close mouth is the only way to control MIDI.
 
-# Demo
+## Demo
 Wah-wah Pedal of VST plugin is controled by my mouth open-close.<br/>
-
 
 https://user-images.githubusercontent.com/86157729/123127083-e9e80280-d484-11eb-8cc9-0c6f72b3293e.mp4
 
 
-
-
-# Requirements
+## Requirements
 
 * Windows 10<br/>
 * Python == 3.7<br/>
@@ -31,24 +28,24 @@ For above demo, followings are also required.
 
 Note: Details of these settings are not described here.<br/><br/>
 
-# Setup
-## Install dependencies
+## Setup
+### Install dependencies
 
 ```bash
 $ python3 -m pip install -r requrements.txt
 ```
 
-## Get source codes
+### Get source codes
 ```bash
 $ git clone https://github.com/nsb-engr/face-midi
 ```
 
-## Setup your virtual midi port<br/>
+### Setup your virtual midi port<br/>
 I used loopMIDI<br/>
 https://www.tobias-erichsen.de/software/loopmidi.html
 
 
-## Set output midi port.
+### Set output midi port.
 ```bash
 $ cd face-midi
 $ python3 set_midi_port.py
@@ -63,22 +60,20 @@ Please select a port by number and press Enter.
 2: oooooooooo is selected
 Port configuration has written to config.py.
 ```
-<br/>
 
-# Usage
+## How to Use
 ### Run 
 ```bash
 $ cd face-midi
 $ python3 face_ctrl.py
 ```
-### If you need, you can set args.
+If you need, you can set args.
 
 | Name | type | Default |Valid Range |Description| 
 |-|-|-|-|-|
 |--ch    |type=int  |default=0  | 0 to 16 |MIDI ch|
 |--ctrl  |type=int  |default=80 | 0 to 127 |Control Change No. |
 |--cam_id |type=int  |default=0  | depend on your env| OpenCV Camera ID |
-
 
 
 ### Calibration
@@ -92,12 +87,12 @@ The parameters you want to control is need to be linked with the transmitted sig
 Please check the manual of each DAW for how to do that.<br/>
 <br/>
 
-# License
+## License
 This software is released under Apache License 2.0, see LICENSE.<br/>
 This software includes the work that is distributed in the Apache License 2.0<br/>
 <br/>
 
-# References
+## References
 * Mediapipe: https://mediapipe.dev/
 * Mido: https://mido.readthedocs.io/
 * loopMIDI: https://www.tobias-erichsen.de/software/loopmidi.html
