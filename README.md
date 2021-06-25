@@ -68,7 +68,7 @@ Port configuration has written to config.py.
 # Usage
 ### Run 
 ```bash
-$ cd 
+$ cd face-midi
 $ python3 face_ctrl.py
 ```
 ### If you need, you can set args.
