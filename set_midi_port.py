@@ -2,7 +2,7 @@ import mido
 import re
 
 CONFIG_FILE = "./config.py"
-2
+
 def set_midi_port():
     ports = mido.get_output_names()
     print("Availavle ports are ...")
